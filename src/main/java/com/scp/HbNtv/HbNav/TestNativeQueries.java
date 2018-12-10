@@ -22,10 +22,9 @@ public class TestNativeQueries {
 		Mobile mobile2= new Mobile(2, "J7", 20000, "Samsung");
 		Mobile mobile3= new Mobile(3, "note", 80000, "mi");
 		Mobile mobile4= new Mobile(4, "note3", 10000, "Xiomi");
-		Mobile mobile5= new Mobile(5, "iphoneX", 550000, "iphone");
+		Mobile mobile5= new Mobile(5, "iphoneX", 20000, "iphone");
 		
-	//first change
-		//sachin
+	//New price
 		 
 		 Configuration configuration= new Configuration();
 			SessionFactory sessionFactory=configuration.configure("hibernate.cfg.xml").buildSessionFactory();
