@@ -24,7 +24,7 @@ public class TestNativeQueries {
 		Mobile mobile4= new Mobile(4, "note3", 10000, "Xiomi");
 		Mobile mobile5= new Mobile(5, "iphoneX", 550000, "iphone");
 		
-	
+	//first change
 		 
 		 Configuration configuration= new Configuration();
 			SessionFactory sessionFactory=configuration.configure("hibernate.cfg.xml").buildSessionFactory();
