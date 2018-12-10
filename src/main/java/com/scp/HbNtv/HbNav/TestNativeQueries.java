@@ -25,6 +25,7 @@ public class TestNativeQueries {
 		Mobile mobile5= new Mobile(5, "iphoneX", 550000, "iphone");
 		
 	//first change
+		//sachin
 		 
 		 Configuration configuration= new Configuration();
 			SessionFactory sessionFactory=configuration.configure("hibernate.cfg.xml").buildSessionFactory();
